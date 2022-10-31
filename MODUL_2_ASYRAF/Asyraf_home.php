@@ -3,7 +3,7 @@
 <head>
   <style>
     .navbg{
-      background-color: black;
+      background-color: burlywood;
     }
   </style>
     <meta charset="UTF-8">

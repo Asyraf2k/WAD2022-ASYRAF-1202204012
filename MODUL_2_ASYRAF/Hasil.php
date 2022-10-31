@@ -27,9 +27,9 @@
 </html>
 <body>
 <?php
-$name = $_POST['name'];
+$name = $_GET['name'];
 $date = $_POST['date'];
-$time = $_POST['time'];
+$time = $_GET['time'];
 $duration = $_POST['duration'];
 $car = $_POST['car'];
 $phone = $_POST['Number'];

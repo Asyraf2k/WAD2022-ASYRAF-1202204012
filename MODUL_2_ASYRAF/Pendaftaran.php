@@ -44,7 +44,7 @@
     <div class="col-md-6">
     <div class="container">
     <h4 class="text-center">Rent your car now!</h4>
-    <form action="Hasil.php" method="POST">
+    <!-- <form action="Hasil.php" method="GET"> -->
         <div class= "mb-3">
             <label for="name" class="form-label">Name</label>
             <input type="text" class="form-control" id="name" name="name" placeholder=" ">
