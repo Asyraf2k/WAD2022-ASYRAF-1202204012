@@ -4,7 +4,7 @@ include 'connectormodul4.php';
  
 error_reporting(0);
  
-session_start();
+session_id();
  
 if (isset($_SESSION['nama'])) {
     header("Location: berhasil_login.php");

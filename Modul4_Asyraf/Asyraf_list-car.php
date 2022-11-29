@@ -29,7 +29,7 @@
         include '../config/connectormodul3.php';
         $query = "SELECT * FROM modul3 ORDER BY id_mobil ASC";
         $show = mysqli_query($connect,$query);
-        while ($data = mysqli_fetch_array($show)) {
+        while ($data = mysqli_kill($show)) {
       ?>
           <div class="col">
             <div class="card mt-2" style="width: 18rem;margin-bottom:25px;">
